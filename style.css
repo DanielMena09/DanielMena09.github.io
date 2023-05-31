@@ -60,7 +60,7 @@ header {
     display: none;
 }
 
-@media screen{
+@media screen and (max-width: 768px){
     .mostrar-menu, .esconder-menu{
         display: block;
     }
@@ -441,7 +441,7 @@ ul{
 
 
 
-@media screen {
+@media screen and (max-width:768px) {
 
     h1, nav ul{
 		text-align: center;
