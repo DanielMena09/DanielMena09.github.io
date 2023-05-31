@@ -1,0 +1,427 @@
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+main {
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../imagenes/pexels-afta-putta-gunawan-683039.jpg); 
+	background-size: cover;
+	 padding: 100px;
+ }
+
+header{
+	height: 150px;
+    background: #1d1716;
+    padding: 0 30px;
+    color: #f3bc77;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	/*background-color: #BBBBBB;
+	padding: 20px 0;*/
+}
+
+.logo-superior {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    padding-left: 30px;
+    width: 100px;
+    height: auto;
+  }
+  
+
+  .titulo-superior {
+    padding-left: 130px;
+    font-size: 30px;
+    color: #ccae88;
+  
+  }
+
+.menu a{
+    color: #f3bc77;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+}
+
+.mostrar-menu, .esconder-menu{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+}
+
+.mostrar-menu{
+    order: 1;
+}
+
+.menu a:hover, .mostrar-menu:hover, .esconder-menu:hover{
+
+    color: #a55233;
+}
+
+#check{
+    display: none;
+}
+
+.main-contacto{
+	margin-left: 1em;
+}
+
+.productos{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+.productos li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+    border: 2px solid #f3bc77;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #000000;
+}
+
+.productos h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-shadow: 3px 3px 2px rgb(0, 0, 0);
+}
+
+.productos li:hover{
+	border-color: #c78c19;
+	
+}
+
+.productos li:active {
+    border-color: #a55233;
+    transform: scale(1.1);
+}
+
+.productos h2{
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.productos li:hover h2{
+	font-size: 29px;
+}
+
+.cabellobarba,
+.cabello,
+.barba {
+    height: 250px;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40%;
+}
+
+.producto-descripcion{
+	font-size: 16px;
+    color: #ffffff;
+    text-shadow: 3px 3px 2px rgb(0, 0, 0);
+}
+
+.producto-precio{
+	font-size: 24px;
+    text-align: center;
+    color: #f3ff51;
+    background: #9b8a75;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-shadow: 3px 3px 2px rgb(0, 0, 0);
+}
+
+footer{
+	text-align: center;
+	background-color: #201d1b;
+	padding: 40px;
+	height: auto;
+}
+.logo {
+    width: 100px;
+    height: auto; 
+    max-width: 100%;}
+
+.copyright{
+	color: white;
+	font-size: 16px;
+	margin: 20px;
+}
+
+/*-------- CSS PARA CONTACTO -------- */
+
+form{
+	margin: 40px 0;
+
+}
+
+form label, form legend{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padron{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox{
+	margin: 20px 0;
+}
+
+.enviar{
+	width: 40%;
+	padding: 15px 0;
+	font-size: 18px;
+	font-weight: bold;
+	color: #201d1b;
+    background: #a58f72;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+	background: #ac8655;
+    transform: scale(1.1);
+}
+
+.tabla-contacto{
+	margin: 40px 7%;
+	position: relative;
+}
+
+thead{
+	background: #99723f;
+    color: #ffffff;
+	font-weight: bold;
+}
+td, th{
+	border: 1px solid #99723f;
+    color: #ffffff;
+	padding: 8px 15px;
+	font-size: 18px;
+}
+
+/*------------ CSS PARA HOME ------------*/
+.banner{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.87)), url(../imagenes/pexels-cottonbro-studio-3998421.jpg) ; 
+	justify-content: space-between;
+	background-size: cover;
+    padding: 100px;
+    color: #CCCCCC;
+    display: flex;
+    justify-content: center;
+}
+
+.principal{
+	padding: 3em 0;
+	background: #ffffff;
+	margin: 0 auto;
+}
+
+.bienvenida {
+    background-color: rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.767);
+	font-family: Arial, Helvetica, sans-serif;
+    color: #f3bc77;
+}
+
+.titulo-principal{
+	color: #000000;
+    background-color: rgba(201, 166, 96, 0.527);
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;	
+}
+
+.principal p{
+	margin: 0 0 1em;
+}
+
+.principal strong{
+	font-weight: bold;
+}
+
+.principal em{
+	font-style: italic;
+}
+
+.utensilios{
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.mapa{
+	padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa p{
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.mapa-contenido{
+	width: auto;
+	margin: 0 auto;
+}
+
+
+.btn-agenda {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f3bc77;
+    color: #201d1b;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    transition: background-color 0.3s, border-color 0.3s;
+    border: 2px solid transparent;
+  }
+  
+.btn-agenda:hover {
+    transform: scale(1.1);
+    border-color: #201d1b;
+    cursor:pointer;
+  }
+
+.agendar{
+    text-align: center;
+    padding: 20px;
+}
+
+.diferenciales{
+	padding: 3em 0;
+	background: #888888;
+}
+
+.contenido-diferenciales{
+	width: 640px;
+	margin: 2.5em auto 0;
+}
+
+/*La imagen tiene el 60%, la lista ocupara el 40% de los 640px definididos para todo el bloque contenido-diferenciales*/
+
+.lista-diferenciales{
+	width: 40%;
+	display: inline-block; /*inline-block hace una lectura del codigo HTML, si lo coloco todo seguido sin saltos del linea, dara el efecto deseado*/
+	vertical-align: top;
+}
+
+.items{
+	line-height: 1.5;
+}
+
+.items:first-child{
+	font-weight: bold;
+}
+.items:before{
+	content:"★";
+}
+
+.imagen-diferenciales{
+	width: 60%;
+	transition: 400ms;
+	box-shadow: 10px 10px 30px 10px black;
+}
+
+.imagen-diferenciales:hover{
+	opacity: 0.3;
+}
+
+.video{
+	width: auto;
+	margin: 1.2em auto;
+}
+
+
+/* ---------- CSS RESPONSIVE --------- */
+
+@media screen and (max-width: 480px){
+
+	.mostrar-menu,
+    .esconder-menu {
+        display: block;
+    }
+
+    .menu {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #63523fef;
+        right: -100%;
+        top: 0;
+        text-align: center;
+        padding: 100px 0px;
+        z-index: 100;
+        transition: 0.8s;
+    }
+
+    .menu a {
+        display: block;
+        padding: 20px;
+    }
+
+    .esconder-menu {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+
+    #check:checked ~ .menu {
+        right: 0;
+    }
+
+	.principal, .mapa-contenido, .contenido-diferenciales, .video, .productos, .productos li, .enviar{
+		width: auto;
+		margin: 0 auto;
+	}
+
+	.tabla-contacto{
+		margin: 10% 0;
+	}
+
+	.mapa{
+		padding: 0;
+	}
+
+	.lista-diferenciales, .imagen-diferenciales{
+		width: 100%;
+	}
+
+	.imagen-diferenciales{
+		margin: 15px 0 0 0;
+	}
+	.titulo-principal{
+		text-decoration: underline 0.5px;
+	}
+}
+
