@@ -405,8 +405,8 @@ td, th{
     }
 
 	.principal, .mapa-contenido, .contenido-diferenciales, .video, .productos, .productos li, .enviar{
-		width: 96%;
-		margin: 0 2%;
+		width: 100%;
+		margin: 0;
 	}
 	
 	.bienvenida {
