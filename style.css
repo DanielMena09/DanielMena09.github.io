@@ -389,6 +389,7 @@ td, th{
         top: 0;
         text-align: center;
         padding: 100px 0px;
+	padding-right: 40px;
         z-index: 100;
         transition: 0.8s;
     }
@@ -408,10 +409,13 @@ td, th{
     #check:checked ~ .menu {
         right: 0;
     }
-	header{
-	height: 90%;
-	width: auto;
-	}
+	
+	header {
+    padding: 0 20px; /* Reduce el padding horizontal para acortar el ancho */
+  }
+	 .logo-superior {
+    width: 80px;
+		 
 	.titulo-superior {
 		font-size: 6wvpx; 
 	}
@@ -452,9 +456,10 @@ td, th{
   }
 
   .imagen-diferenciales {
-    width: 30%;
+    width: 40%;
     float: right; /* Alinea la imagen a la derecha */
-    margin-top: 1em; /* Agrega un margen superior para separarla de la lista */
+    margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+    margin-right: 10px;
   }
 
 	
