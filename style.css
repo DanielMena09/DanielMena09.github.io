@@ -402,13 +402,15 @@ td, th{
         position: absolute;
         top: 40px;
         right: 40px;
+	left: 20px;
     }
 
     #check:checked ~ .menu {
         right: 0;
     }
 	header{
-	width: 80%;
+	height: 90%;
+	width: auto;
 	}
 	.titulo-superior {
 		font-size: 6wvpx; 
