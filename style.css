@@ -377,7 +377,7 @@ td, th{
 	.mostrar-menu,
 	.esconder-menu {
         display: block;
-	padding-left: 20px;
+	 margin-right: 5px;
     }
 
     .menu {
@@ -403,7 +403,7 @@ td, th{
         position: absolute;
         top: 40px;
         right: 40px;
-	left: 20px;
+
     }
 
     #check:checked ~ .menu {
@@ -411,13 +411,13 @@ td, th{
     }
 	
 	header {
-    padding: 0 20px; /* Reduce el padding horizontal para acortar el ancho */
+    padding: 0 10px; /* Reduce el padding horizontal para acortar el ancho */
   }
 	 .logo-superior {
-    width: 80px;
+    width: 60px;
 		 
 	.titulo-superior {
-		font-size: 6wvpx; 
+		font-size: 4wvpx; 
 	}
 
 
@@ -450,16 +450,15 @@ td, th{
   }
 
   .lista-diferenciales {
-    width: 70%;
+    width: 100%;
     display: inline-block;
     vertical-align: top;
+margin-bottom: 20px; 
   }
 
   .imagen-diferenciales {
-    width: 40%;
-    float: right; /* Alinea la imagen a la derecha */
-    margin-top: 10px; /* Ajusta el margen superior según sea necesario */
-    margin-right: 10px;
+   width: 100%;
+    margin: 0 auto;
   }
 
 	
