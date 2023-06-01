@@ -377,7 +377,7 @@ td, th{
 	.mostrar-menu,
 	.esconder-menu {
         display: block;
-	left: 10px
+	padding-left: 20px;
     }
 
     .menu {
@@ -407,6 +407,14 @@ td, th{
     #check:checked ~ .menu {
         right: 0;
     }
+	header{
+	width: 80%;
+	}
+	.titulo-superior {
+		font-size: 6wvpx; 
+	}
+
+
 
 	.principal, .mapa-contenido, .contenido-diferenciales, .video, .productos, .productos li, .enviar{
 		width: 100%;
