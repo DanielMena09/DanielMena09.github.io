@@ -354,7 +354,7 @@ td, th{
 }
 
 .imagen-diferenciales{
-	width: 60%;
+	width: 250px;
 	transition: 400ms;
 	box-shadow: 10px 10px 30px 10px black;
 }
@@ -413,8 +413,6 @@ td, th{
 	header {
     padding: 0 10px; /* Reduce el padding horizontal para acortar el ancho */
   }
-	 .logo-superior {
-    width: 40px;
 		 
 	.titulo-superior {
 		font-size: 2wvpx; 
@@ -440,18 +438,6 @@ td, th{
 	}
 	
 
-	.lista-diferenciales, .imagen-diferenciales{
-		width: 20%;
-	}
-	
-	.contenido-diferenciales {
-    width: 100% ;
-    margin: 0;
-  }
-
-.lista-diferenciales, .imagen-diferenciales{
-		width: 100%;
-	}
 
 	.imagen-diferenciales{
 		margin: 15px 0 0 0;
