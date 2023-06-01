@@ -353,7 +353,7 @@ td, th{
 }
 
 .imagen-diferenciales{
-	width: 60%;
+	width: auto;
 	transition: 400ms;
 	box-shadow: 10px 10px 30px 10px black;
 }
