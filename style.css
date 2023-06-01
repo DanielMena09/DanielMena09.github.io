@@ -422,9 +422,10 @@ td, th{
 	.mapa{
 		padding: 0;
 	}
+	
 
 	.lista-diferenciales, .imagen-diferenciales{
-		width: 100%;
+		width: 10%;
 	}
 
 	
