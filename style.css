@@ -449,19 +449,13 @@ td, th{
     margin: 0;
   }
 
-  .lista-diferenciales {
-    width: 100%;
-    display: inline-block;
-    vertical-align: top;
-margin-bottom: 20px; 
-  }
+.lista-diferenciales, .imagen-diferenciales{
+		width: 100%;
+	}
 
-  .imagen-diferenciales {
-   width: 300px;
-   margin: 20px auto;
-  }
+	.imagen-diferenciales{
+		margin: 15px 0 0 0;
 
-	
 
 }
 
