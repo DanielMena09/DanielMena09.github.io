@@ -414,7 +414,7 @@ td, th{
     padding: 0 10px; /* Reduce el padding horizontal para acortar el ancho */
   }
 	 .logo-superior {
-    width: 60%;
+    width: 40px;
 		 
 	.titulo-superior {
 		font-size: 2wvpx; 
@@ -445,7 +445,7 @@ td, th{
 	}
 	
 	.contenido-diferenciales {
-    width: 100%;
+    width: 100% ;
     margin: 0;
   }
 
@@ -457,8 +457,8 @@ margin-bottom: 20px;
   }
 
   .imagen-diferenciales {
-   width: 100%;
-    margin: 0 auto;
+   width: 300px;
+   margin: 20px auto;
   }
 
 	
