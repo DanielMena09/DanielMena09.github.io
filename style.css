@@ -227,6 +227,7 @@ td, th{
 	justify-content: space-between;
 	background-size: cover;
 	padding: 10%;
+	box-sizing: border-box;
 	color: #CCCCCC;
 	display: flex;
 	justify-content: center;
