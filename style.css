@@ -377,7 +377,7 @@ td, th{
 	.mostrar-menu,
 	.esconder-menu {
         display: block;
-	 margin-right: 5px;
+	padding-right: 25px;
     }
 
     .menu {
@@ -414,10 +414,10 @@ td, th{
     padding: 0 10px; /* Reduce el padding horizontal para acortar el ancho */
   }
 	 .logo-superior {
-    width: 60px;
+    width: 60%;
 		 
 	.titulo-superior {
-		font-size: 4wvpx; 
+		font-size: 2wvpx; 
 	}
 
 
