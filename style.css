@@ -367,9 +367,16 @@ td, th{
 /* ---------- CSS RESPONSIVE --------- */
 
 @media screen and (max-width: 480px){
+	
+	
+	main{
+		padding: 50px;
+	}
+	
+
 
 	.mostrar-menu,
-    .esconder-menu {
+	.esconder-menu {
         display: block;
     }
 
