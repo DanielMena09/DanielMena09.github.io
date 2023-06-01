@@ -7,7 +7,7 @@ body{
 main {
 	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../imagenes/pexels-afta-putta-gunawan-683039.jpg); 
 	background-size: cover;
-	padding: 4vw;
+
 
  }
 
@@ -368,12 +368,6 @@ td, th{
 /* ---------- CSS RESPONSIVE --------- */
 
 @media screen and (max-width: 480px){
-	
-	* {
-		box-sizing: border-box;
-	}
-
-	
 	
 
 	.mostrar-menu,
