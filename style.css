@@ -75,7 +75,7 @@ header{
 }
 
 .productos{
-	width: 940px;
+	
 	margin: 0 auto;
 	padding: 50px;
 }
@@ -341,7 +341,7 @@ td, th{
 }
 
 .items{
-	display: inline-block;
+
 	line-height: 1.5;
 }
 
@@ -425,7 +425,7 @@ td, th{
 	
 
 	.lista-diferenciales, .imagen-diferenciales{
-		width: 10%;
+		width: 20%;
 	}
 
 	
