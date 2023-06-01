@@ -369,6 +369,11 @@ td, th{
 
 @media screen and (max-width: 480px){
 	
+	* {
+		box-sizing: border-box;
+	}
+
+	
 	
 
 	.mostrar-menu,
