@@ -221,15 +221,16 @@ td, th{
 }
 
 /*------------ CSS PARA HOME ------------*/
-.banner{
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.87)), url(../imagenes/pexels-cottonbro-studio-3998421.jpg) ; 
+.banner {
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.87)), url(../imagenes/pexels-cottonbro-studio-3998421.jpg); 
 	justify-content: space-between;
 	background-size: cover;
-    padding: 100px;
-    color: #CCCCCC;
-    display: flex;
-    justify-content: center;
-}
+	padding: 10%;
+	color: #CCCCCC;
+	display: flex;
+	justify-content: center;
+  }
+  
 
 .principal{
 	padding: 3em 0;
@@ -238,18 +239,18 @@ td, th{
 }
 
 .bienvenida {
-    background-color: rgba(255, 255, 255, 0.2);
-    display: inline-block;
-    border-radius: 10px;
-    font-weight: bold;
-    margin-top: 10px;
-    padding: 10px;
-    font-size: 30px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.767);
+	background-color: rgba(255, 255, 255, 0.2);
+	display: inline-block;
+	border-radius: 10px;
+	font-weight: bold;
+	margin-top: 10px;
+	padding: 10px;
+	font-size: 30px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.767);
 	font-family: Arial, Helvetica, sans-serif;
-    color: #f3bc77;
-}
-
+	color: #f3bc77;
+	white-space: nowrap;
+  }
 .titulo-principal{
 	color: #000000;
     background-color: rgba(201, 166, 96, 0.527);
