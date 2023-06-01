@@ -405,6 +405,10 @@ td, th{
 		width: auto;
 		margin: 0 auto;
 	}
+	
+	.bienvenida {
+		font-size: 3vw; /* Ajusta el tamaño de la letra según tus necesidades */
+	}
 
 	.tabla-contacto{
 		margin: 10% 0;
