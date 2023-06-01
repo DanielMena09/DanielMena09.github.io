@@ -1,10 +1,5 @@
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body{
 	font-family: 'Montserrat', sans-serif;
@@ -21,7 +16,6 @@ main {
 header{
 	height: 150px;
     background: #1d1716;
-    padding: 0 30px;
     color: #f3bc77;
     display: flex;
     justify-content: space-between;
