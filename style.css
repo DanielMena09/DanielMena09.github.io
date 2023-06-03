@@ -1,506 +1,106 @@
-
-*{margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
-
-
-*:not(.imagen-diferenciales, .lista-diferenciales, ){
-
-	box-sizing: border-box;
-	}
-
-.logo-superior {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 10px;
-    padding-left: 30px;
-    padding-bottom: 30px;
-    width: 100px;
-    height: 120px;
-	box-sizing: border-box;
-  }
-  
-  .titulo-superior {
-    padding-left: 160px;
-    padding-top: 30px;
-    font-size: 40px;
-    color: #ccae88;
-    display: inline-block;
-  
-  }
-
-nav{
-    background:  #1d1716;
-    height: 100px;
-    width: 100%;
-}
-.enlace{
-    position: absolute;
-    padding: 20px 50px;
-}
-.logo{
-    height: 40px;
-}
-nav ul{
-    float: right;
-    margin-right: 20px;
-	box-sizing: border-box;
-
-}
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
-nav ul li a{
-    color: #fff;
-    font-size: 18px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
-}
-li a.active, li a:hover{
-    background: #000090;
-  
-}
-.checkbtn{
-    font-size: 30px;
-    color: #fff;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
-#check{
-    display: none;
-}
-
-.main-contacto{
-	margin-left: 1em;
-}
-
-.productos{
-	
-	margin: 0 auto;
-	padding: 50px;
-}
-
-.productos li{
-	display: inline-block;
-	text-align: center;
-	width: 30%;
-	vertical-align: top;
-	margin: 0 1.5%;
-	padding: 30px 20px;
-	box-sizing: border-box;
-    border: 2px solid #f3bc77;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px #000000;
-}
-
-.productos h2 {
-    font-size: 20px;
-    font-weight: bold;
-    color: #FFFFFF;
-    text-shadow: 3px 3px 2px rgb(0, 0, 0);
-}
-
-.productos li:hover{
-	border-color: #c78c19;
-	
-}
-
-.productos li:active {
-    border-color: #a55233;
-    transform: scale(1.1);
-}
-
-.productos h2{
-	font-size: 26px;
-	font-weight: bold;
-}
-
-.productos li:hover h2{
-	font-size: 29px;
-}
-
-.cabellobarba,
-.cabello,
-.barba {
-    height: 250px;
-    width: 250px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 40%;
-}
-
-.producto-descripcion{
-	font-size: 16px;
-    color: #ffffff;
-    text-shadow: 3px 3px 2px rgb(0, 0, 0);
-}
-
-.producto-precio{
-	font-size: 24px;
-    text-align: center;
-    color: #f3ff51;
-    background: #9b8a75;
-    border-radius: 10px;
-    font-weight: bold;
-    margin-top: 10px;
-    text-shadow: 3px 3px 2px rgb(0, 0, 0);
-}
-
-
-footer{
-	text-align: center;
-	background-color: #201d1b;
-	padding: 40px;
-	height: auto;
-}
-
-
-.logo {
-    width: 100px;
-    height: auto; 
-    max-width: 100%;}
-
-.copyright{
-	color: white;
-	font-size: 16px;
-	margin: 20px;
-}
-
-/*-------- CSS PARA CONTACTO -------- */
-
-form{
-	margin: 40px 0;
-
-}
-
-form label, form legend{
-	display: block;
-	font-size: 20px;
-	margin: 0 0 10px;
-}
-
-.input-padron{
-	display: block;
-	margin: 0 0 20px;
-	padding: 10px 25px;
-	width: 50%;
-}
-
-.checkbox{
-	margin: 20px 0;
-}
-
-.enviar{
-	width: 40%;
-	padding: 15px 0;
-	font-size: 18px;
-	font-weight: bold;
-	color: #201d1b;
-    background: #a58f72;
-    border: none;
-    border-radius: 5px;
-    transition: 0.5s all;
-    cursor: pointer;
-}
-
-.enviar:hover{
-	background: #ac8655;
-    transform: scale(1.1);
-}
-
-.tabla-contacto{
-	margin: 40px 7%;
-	position: relative;
-}
-
-thead{
-	background: #99723f;
-    color: #ffffff;
-	font-weight: bold;
-}
-td, th{
-	border: 1px solid #99723f;
-    color: #ffffff;
-	padding: 8px 15px;
-	font-size: 18px;
-}
-
-/*------------ CSS PARA HOME ------------*/
-.banner {
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.87)), url(../imagenes/pexels-cottonbro-studio-3998421.jpg); 
-	width: 100%;
-	background-size: cover;
-	padding: 5% 10%;
-	box-sizing: border-box;
-	color: #CCCCCC;
-	display: flex;
-	justify-content: center;
-  }
-  
-
-.principal{
-	padding: 2em 0;
-	background: #ffffff;
-	margin: 0 auto;
-}
-
-.contenido-principal{
-	padding: 60px 50px;
-}
-
-.bienvenida {
-	background-color: rgba(107, 85, 60, 0.356);
-	display: inline-block;
-	border-radius: 10px;
-	font-weight: bold;
-	margin-top: 5px;
-	padding: 10px;
-	font-size: 1.5vw;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.767);
-	font-family: Arial, Helvetica, sans-serif;
-	color: #f3bc77;
-	white-space: nowrap;
-}
-
-.titulo-principal {
-	color: #000000;
-	text-align: center;
-	font-size: 1.7em;
-	margin: 0 0 1em;
-	padding: 0.2em 0.5em;
-	background-color: rgba(201, 166, 96, 0.527);
-}
-
-
-
-.titulo-principal-ubicacion{
-	color: #ffffff;
-    background-color: rgba(83, 75, 57, 0.671);
-	text-align: center;
-	font-size: 1.7em;
-	margin: 0 0 1em;
-	clear: left;	
-}
-
-.mapa p {
-	color: #ffffff;
-  }
-  
-.principal p{
-	margin: 0 0 3em;
-}
-
-.principal strong{
-	font-weight: bold;
-}
-
-.principal em{
-	font-style: italic;
-}
-
-.utensilios{
-	width: 120px;
-	float: left;
-	margin: 0 20px 20px 0;
-}
-
-.mapa{
-	padding: 3em 0;
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.61)), url(../imagenes/pexels-pavel-danilyuk-7518736.jpg); 
-	background-size: cover;
-}
-
-.mapa p{
-	margin: 0 0 2em;
-	text-align: center;
-}
-
-.mapa-contenido{
-	width: 80%;
-	height: 500px;
-	margin: 0 auto;
-	padding-bottom: 50px;
-}
-
-
-.btn-agenda {
-    display: inline-block;
-    padding: 24px;
-    background-color: #ffdb3b;
-    color: #201d1b;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 5px;
-	box-sizing: border-box;
-    border: 2px solid #252120;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px #000000;
-    transition: background-color 0.3s;
-    transition: background-color 0.3s, border-color 0.3s;
-   
-  }
-  
-.btn-agenda:hover {
-    transform: scale(1.1);
-    border-color: #201d1b;
-    cursor:pointer;
-  }
-
-.agendar{
-    text-align: center;
-    padding: 20px;
-}
-
-.diferenciales {
-	
-	padding: 3em 0;
-	background-color: #ffffff;
-  }
-  
-  .contenido-diferenciales {
-	margin: 2em auto 0;
-  }
-  
-  .lista-diferenciales {
-	width: 30%;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 90px;
-	text-align: left;
-  }
-  
-  .items {
-	line-height: 1.5;
-	list-style: none;
-  }
-  
-  .items:first-child {
-	font-weight: bold;
-  }
-  
-  .items:before {
-	content: "★";
-  }
-  
-  .imagen-diferenciales {
-	width: 30%;
-	transition: 400ms;
-	box-shadow: 10px 10px 30px 10px black;
-	margin-bottom: 30px;
-	margin-left: 40px;
-  }
-  
-  .imagen-diferenciales:hover {
-	opacity: 0.3;
-  }
-  
-
-.video{
-	width: 640px;
-	margin: 1.2em auto;
-}
-
-
-/* ---------- CSS RESPONSIVE --------- */
-
-@media screen and (max-width: 480px){
-
-
-
-	.principal, .mapa-contenido, .contenido-diferenciales, .video, .productos, .productos li, .enviar{
-		width: auto;
-		margin: 0 auto;
-	}
-	
-
-	.titulo-superior {
-		display: none; 
-	}
-
-
-	.bienvenida {
-		font-size: 3vw; /* Ajusta el tamaño de la letra según tus necesidades */
-	}
-
-	.tabla-contacto{
-		margin: 10% 0;
-	}
-
-	.mapa{
-		padding: 0;
-
-	}
-
-	
-	.contenido-diferenciales {
-		margin: 2em auto 0;
-	  }
-	
-	  .lista-diferenciales {
-		
-	
-		text-align: left;
-	  }
-	  
-	  .imagen-diferenciales {
-	
-		width: 120px;
-		float: right;
-		margin: 0 20px 20px 0;
-	  
-
-	
-	
-
-	}
-
-
-	@media (max-width: 952px){
-		.enlace{
-			padding-right: 20px;
-		}
-		nav ul li a{
-			font-size: 16px;
-		}
-	}
-	
-	@media (max-width: 858px){
-		.checkbtn{
-			display: block;
-		}
-		ul{
-			position: fixed;
-			width: 100%;
-			height: 100vh;
-			background: #2c3e50;
-			top: 80px;
-			right: -120%;
-			text-align: center;
-			transition: all .5s;
-		}
-		nav ul li{
-			display: block;
-			margin: 50px 0;
-			line-height: 30px;
-		}
-		nav ul li a{
-			font-size: 20px;
-		}
-		li a:hover, li a.active{
-			background: none;
-			color: red;
-		}
-		#check:checked ~ ul{
-			left:0;
-		}
-	}}
-
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+
+        <meta charset="UTF-8"> 
+        <title>Barbería Alura</title>
+        <link rel="stylesheet" href="style.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap');
+          </style>
+    
+    </head>
+
+    <body>
+        <nav>
+            <img src="../imagenes/logo-blanco.png" class="logo-superior">
+            <h1 class="titulo-superior">Barbería Alura</h1>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <a href="#" class="enlace">
+            </a>
+            <ul>
+                <li><a class="active" href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <p class="bienvenida" >BIENVENIDOS A LA BARBERIA ALURA</p>
+        </div>
+
+        <main>
+
+            <section class="principal">
+
+                <h2 class="titulo-principal">Sobre la Barbería Alura</h2>
+                <div class="contenido-principal">
+                    <img class="utensilios" src="../imagenes/utensilios.jpg" alt="Utensilios de un
+                    barbero.">
+                    <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente.</p>
+                    
+                    <p id="mision"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes"</strong>.</em></p>
+                    
+                    <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.</p> 
+                    
+
+                </div>
+               
+            </section>
+
+            <section class="mapa">
+                <h3 class="titulo-principal-ubicacion"> Nuestra ubicación</h3>
+                <p> ¡Nuestro establecimiento está ubicado en el corazón de la ciudad!</p>
+
+                <div class="mapa-contenido">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d116450.8302775672!2d-84.06757993298645!3d9.897869907909438!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2scr!4v1685751342309!5m2!1sen!2scr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+               <div class="agendar">
+                <a class="btn-agenda" href="contactos.html">¡Agenda una cita!</a>
+                </div>
+            
+
+              
+            </section>
+    
+            <section class="diferenciales">
+    
+                <h3 class="titulo-principal">Diferenciales</h3>
+            
+              <div class = "contenido-diferenciales">
+					<ul class="lista-diferenciales">
+						<li class="items">Atención personalizada a los clientes</li>
+						<li class="items">Espacios diferenciado</li>
+						<li class="items">Localización</li>
+						<li class="items">Profesionales calificados</li>
+						<li class="items">Puntualidad</li>
+						<li class="items">Limpieza</li>
+						
+					 </ul>
+                     <img class="imagen-diferenciales" src="../Imagenes/diferenciales.jpg"> 
+				</div>
+
+                <div class="video">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+                </div>
+    
+            </section>
+            
+            
+        </main>
+
+        <footer>
+            <img src="../imagenes/logo-blanco.png" class="logo">
+            <p class="copyright">&copy Copyright Barbería Alura - 2020</p>
+        </footer>
+    </body>
+</html>
