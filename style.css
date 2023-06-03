@@ -502,4 +502,5 @@ td, th{
 		#check:checked ~ ul{
 			left:0;
 		}
-	}}
+	}
+}
