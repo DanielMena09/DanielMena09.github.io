@@ -431,12 +431,18 @@ td, th{
 		
 		font-size: 0.9em;
 		text-align: justify;
-		padding: 10px 5px 10px 5px;
+
+	}
+	
+	.contenido-principal{
+		padding: 5px 20px;
+	     
 	}
 
 
 	.titulo-superior{
-		display:none;
+		margin-top: 10px;
+		font-size: 30px;
 	}
 
 
