@@ -433,8 +433,7 @@ td, th{
 
 
 	.titulo-superior{
-		font-size: 30px;
-		margin-top: 10px;
+		display: none;
 	}
 
 
