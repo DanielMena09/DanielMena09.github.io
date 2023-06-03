@@ -1,28 +1,14 @@
 
-
-
-body{
-	font-family: 'Montserrat', sans-serif;
-	margin: 0;
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
-main {
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../imagenes/pexels-afta-putta-gunawan-683039.jpg); 
-	background-size: cover;
 
+*:not(.imagen-diferenciales, .lista-diferenciales, ){
 
- }
-
-header{
-	height: 150px;
-    background: #1d1716;
-    color: #f3bc77;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-	/*background-color: #BBBBBB;
-	padding: 20px 0;*/
-}
+	box-sizing: border-box;
+	}
 
 .logo-superior {
     position: absolute;
@@ -30,60 +16,67 @@ header{
     left: 0;
     padding: 10px;
     padding-left: 30px;
+    padding-bottom: 30px;
     width: 100px;
-    height: auto;
+    height: 120px;
+	box-sizing: border-box;
   }
   
-
   .titulo-superior {
     padding-left: 160px;
+    padding-top: 30px;
     font-size: 40px;
     color: #ccae88;
+    display: inline-block;
   
   }
 
-  .caja{
-	width: 940px;
-	position: relative;
-	margin: 0 auto;
-
-}
-
 nav{
-	position: absolute;
-	top: -30px;
-	right: 0;
+    background:  #1d1716;
+    height: 100px;
+    width: 100%;
 }
-
-nav li{
-	display: inline;
-	margin: 0 0 0 15px;
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
 }
-
-nav a{
-	text-transform: uppercase;
-	color: #ccae88;
-	font-weight: bold;
-	font-size: 28px;
-	text-decoration: none;
-	background-color: #383232;
-	padding: 10px 10px;
+.logo{
+    height: 40px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
 	box-sizing: border-box;
-    border: 2px solid #252120;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px #000000;
-	transition: 0,5s;
-}
-
-nav a:hover{
-	color: #cf974e;
-	
-    font-size: 29px;
-	
 
 }
-
-
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background: #000090;
+  
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
 
 .main-contacto{
 	margin-left: 1em;
@@ -161,12 +154,15 @@ nav a:hover{
     text-shadow: 3px 3px 2px rgb(0, 0, 0);
 }
 
+
 footer{
 	text-align: center;
 	background-color: #201d1b;
 	padding: 40px;
 	height: auto;
 }
+
+
 .logo {
     width: 100px;
     height: auto; 
@@ -240,7 +236,7 @@ td, th{
 /*------------ CSS PARA HOME ------------*/
 .banner {
 	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.87)), url(../imagenes/pexels-cottonbro-studio-3998421.jpg); 
-	justify-content: space-between;
+	width: 100%;
 	background-size: cover;
 	padding: 5% 10%;
 	box-sizing: border-box;
@@ -365,6 +361,7 @@ td, th{
 }
 
 .diferenciales {
+	
 	padding: 3em 0;
 	background-color: #ffffff;
   }
@@ -377,6 +374,8 @@ td, th{
 	width: 30%;
 	display: inline-block;
 	vertical-align: top;
+	margin-left: 90px;
+	text-align: left;
   }
   
   .items {
@@ -393,19 +392,15 @@ td, th{
   }
   
   .imagen-diferenciales {
-	width: 40%;
+	width: 30%;
 	transition: 400ms;
 	box-shadow: 10px 10px 30px 10px black;
 	margin-bottom: 30px;
+	margin-left: 40px;
   }
   
   .imagen-diferenciales:hover {
 	opacity: 0.3;
-  }
-  
-  .video {
-	width: 640px;
-	margin: 1.2em auto;
   }
   
 
@@ -417,29 +412,11 @@ td, th{
 
 /* ---------- CSS RESPONSIVE --------- */
 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 480px){
 
 
-	  h1, nav ul{
-		text-align: center;
-	}
-	nav{
-		position: static;
-	}
-	nav ul{
-		display: flex;
-		justify-content: center;
-	}
-	nav li{
-		display: inline-block;
-		margin-right: 10px;
-	}
 
-	nav a{
-		font-size: 2em;
-	}
-
-	.caja, .principal, .mapa-contenido, .contenido-diferenciales, .video, .productos, .productos li, .enviar{
+	.principal, .mapa-contenido, .contenido-diferenciales, .video, .productos, .productos li, .enviar{
 		width: auto;
 		margin: 0 auto;
 	}
@@ -465,22 +442,65 @@ td, th{
 
 	
 	.contenido-diferenciales {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
+		margin: 2em auto 0;
 	  }
 	
 	  .lista-diferenciales {
-		width: 100%;
-	  }
+		
 	
-	  .imagen-diferenciales {
-		width: 70%; /* Reduce the width of the image by 30% */
-		margin-top: 15px; /* Add some space between the list and the image */
+		text-align: left;
 	  }
+	  
+	  .imagen-diferenciales {
+	
+		width: 120px;
+		float: right;
+		margin: 0 20px 20px 0;
+	  
+
+	
 	
 
 	}
 
 
+	@media (max-width: 952px){
+		.enlace{
+			padding-right: 20px;
+		}
+		nav ul li a{
+			font-size: 16px;
+		}
+	}
+	
+	@media (max-width: 858px){
+		.checkbtn{
+			display: block;
+		}
+		ul{
+			position: fixed;
+			width: 100%;
+			height: 100vh;
+			background: #2c3e50;
+			top: 80px;
+			right: -120%;
+			text-align: center;
+			transition: all .5s;
+		}
+		nav ul li{
+			display: block;
+			margin: 50px 0;
+			line-height: 30px;
+		}
+		nav ul li a{
+			font-size: 20px;
+		}
+		li a:hover, li a.active{
+			background: none;
+			color: red;
+		}
+		#check:checked ~ ul{
+			left:0;
+		}
+	}}
 
