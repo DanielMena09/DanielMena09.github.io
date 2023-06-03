@@ -371,6 +371,7 @@ td, th{
   }
   
   .lista-diferenciales {
+	  
 	
 	display: inline-block;
 	vertical-align: top;
@@ -447,6 +448,8 @@ td, th{
 	
 	  .lista-diferenciales {
 		
+		font-size: 20px;
+		  
 	
 		text-align: left;
 	  }
