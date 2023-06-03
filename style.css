@@ -428,13 +428,15 @@ td, th{
 	}
 
 	.principal p{
-		text-align: justify;
+		
 		font-size: 0.9em;
+		text-align: justify;
+		padding: 10px 5px 10px 5px;
 	}
 
 
 	.titulo-superior{
-		font-size: 1em;
+		display:none;
 	}
 
 
