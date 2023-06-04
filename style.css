@@ -477,7 +477,7 @@ td, th{
 			text-align: justify;
 	
 		}
-	.principal p{
+	.principal p, .lista-diferenciales{
 		font-size: 0.9em;
 	
 	}
