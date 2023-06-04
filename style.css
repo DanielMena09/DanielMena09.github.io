@@ -471,11 +471,15 @@ td, th{
 		margin: 0 auto;
 	}
 
+	.principal p:not(#mision){
+			
+			
+			text-align: justify;
+	
+		}
 	.principal p{
-		
 		font-size: 0.9em;
-		text-align: justify;
-
+	
 	}
 	
 	.contenido-principal{
