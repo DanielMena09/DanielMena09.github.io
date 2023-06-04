@@ -4,7 +4,9 @@
 
     <head> <!-- datos de cabecera, metadatos-->
         <meta charset="utf-8"> <!-- para que los navegadores lean todo tipo de caracteres de idiomas -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
         <title>Productos - Barbería Alura</title> <!-- titulo del sitio web-->
         <link rel="stylesheet" href="reset.css"> <!-- se enlanzan los CSS -->
         <link rel="stylesheet" href="style.css">
@@ -12,25 +14,21 @@
     
     </head> 
     <body> <!-- el cuerpo del sitio web, contiene toda la estructura-->
-        <header> <!-- el encabezado visible de la pagina web-->
-            <h1 class="titulo-superior">Productos</h1>
-            <img src="../imagenes/logo-blanco.png" class="logo-superior">
+        <nav class="contenedor-menu">
+            <img src="imagenes/logo-blanco.png" class="logo-superior">
+            <h1 class="titulo-superior"> Productos</h1>
             <input type="checkbox" id="check">
-            <label for="check" class="mostrar-menu">
-                &#8801
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
             </label>
-            <nav class="menu">
-                    
-                <a href="index.html">Home</a>
-                <a href="productos.html">Productos</a>
-                <a href="contactos.html">Contacto</a>
-                <label for="check" class="esconder-menu">
-                    &#215
-                </label>
-            </nav>
-        </header>
-        
-
+            <a href="#" class="enlace">
+            </a>
+            <ul class="lista-menu">
+                <li><a class="active" href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contactos.html">Contacto</a></li>
+            </ul>
+        </nav>
         <main>
             <ul class="productos">
                 <li>
