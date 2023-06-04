@@ -82,6 +82,11 @@ li a.active, li a:hover{
     display: none;
 }
 
+.main-productos{
+
+	background: url("../imagenes/pexels-afta-putta-gunawan-683039.jpg") rgba(0, 0, 0, 0.5);
+
+}
 .main-contacto{
 	margin-left: 1em;
 }
@@ -480,7 +485,7 @@ td, th{
 	
 		text-align: left;
 		margin-bottom: 30px;
-	  }
+	      }
 	  
 	  .imagen-diferenciales {
 	
@@ -489,7 +494,11 @@ td, th{
 		margin: 0 20px 20px 0;
 	  
 
+	}
 	
+		.productos li{
+		margin-bottom: 20px;
+	}
 	
 
 	}
