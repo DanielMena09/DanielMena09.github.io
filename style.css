@@ -192,16 +192,15 @@ footer{
 }
 
 
-
-.metodo-contacto{
-	color: #ac8655;
-	text-shadow: #000000;
-}
-
-.forma-contacto, .informacion{
-	color: #FFFFFF;
-	text-shadow: #000000;
-}
+ .metodo-contacto{
+		color: #ac8655;
+		text-shadow: #000000;
+	}
+	
+	.forma-contacto,.informacion{
+		color: #FFFFFF;
+		text-shadow: #000000;
+	}
 
 .informacion{
 	padding-top: 50px;
