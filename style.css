@@ -85,11 +85,10 @@ li a.active, li a:hover{
 .main-productos{
 
 	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.87)), url(../imagenes/pexels-afta-putta-gunawan-683039.jpg); 
+	bacground-size: cover;
 
 }
-.main-contacto{
-	margin-left: 1em;
-}
+
 
 .productos{
 	
@@ -185,20 +184,36 @@ footer{
 
 /*-------- CSS PARA CONTACTO -------- */
 
-form{
-	margin: 40px 0;
 
+.main-contacto{
+
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.87)), url(imagenes/pexels-afta-putta-gunawan-683039.jpg); 
+	background-size: cover;
 }
+
+.informacion, .forma-contacto, .metodo-contacto{
+	color: #FFFFFF;
+	text-shadow: #000000;
+}
+
+.informacion{
+	padding-top: 50px;
+}
+
+
 
 form label, form legend{
 	display: block;
 	font-size: 20px;
-	margin: 0 0 10px;
+}
+
+form {
+	padding-left: 20px;
 }
 
 .input-padron{
 	display: block;
-	margin: 0 0 20px;
+	margin: 10px 0 20px;
 	padding: 10px 25px;
 	width: 50%;
 }
@@ -208,26 +223,38 @@ form label, form legend{
 }
 
 .enviar{
-	width: 40%;
-	padding: 15px 0;
-	font-size: 18px;
-	font-weight: bold;
-	color: #201d1b;
-    background: #a58f72;
-    border: none;
-    border-radius: 5px;
-    transition: 0.5s all;
-    cursor: pointer;
+
+		display: inline-block;
+		padding: 24px;
+		margin-bottom: 40px;
+		background-color: #f3ff51 ;
+		color: #201d1b;
+		text-decoration: none;
+		font-size: 18px;
+		font-weight: bold;
+		border-radius: 5px;
+		box-sizing: border-box;
+		border: 2px solid #252120;
+		border-radius: 10px;
+		box-shadow: 2px 2px 10px #000000;
+		transition: background-color 0.3s;
+		transition: background-color 0.3s, border-color 0.3s;
+	   
+	
 }
 
 .enviar:hover{
-	background: #ac8655;
-    transform: scale(1.1);
+	transform: scale(1.1);
+    border-color: #201d1b;
+    cursor:pointer;
 }
 
-.tabla-contacto{
-	margin: 40px 7%;
-	position: relative;
+.mensaje-contacto{
+	font-size: 20px;
+	font-style: italic;
+	color: #FFFFFF;
+	margin-top: 10px;
+	padding-bottom: 30px;
 }
 
 thead{
@@ -240,6 +267,12 @@ td, th{
     color: #ffffff;
 	padding: 8px 15px;
 	font-size: 18px;
+}
+
+.lista-seleccion, 
+.tabla-contacto, 
+.forma-contacto{
+	padding: 20px;
 }
 
 /*------------ CSS PARA HOME ------------*/
@@ -500,6 +533,10 @@ td, th{
 	
 		.productos li{
 		margin-bottom: 20px;
+	}
+	
+		.input-padron{
+		width: 70%;
 	}
 	
 
