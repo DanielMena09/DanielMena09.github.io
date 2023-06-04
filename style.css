@@ -191,7 +191,12 @@ footer{
 	background-size: cover;
 }
 
-.informacion, .forma-contacto, .metodo-contacto{
+.informacion, .forma-contacto{
+	color: #ac8655;
+	text-shadow: #000000;
+}
+
+.metodo-contacto{
 	color: #FFFFFF;
 	text-shadow: #000000;
 }
@@ -460,7 +465,7 @@ td, th{
 
 
 
-	.principal, .mapa-contenido, .contenido-diferenciales, .video, .productos, .productos li, .enviar{
+	.principal, .mapa-contenido, .contenido-diferenciales, .video, .productos, .productos li{
 		width: auto;
 		margin: 0 auto;
 	}
@@ -503,11 +508,11 @@ td, th{
 
 	}
 
-	.agendar{
+	.agendar, .enviar{
 		padding-bottom: 30px;
 	}
 
-	.btn-agenda{
+	.btn-agenda, .enviar{
 		padding: 18px;
 	}
 	
@@ -536,7 +541,13 @@ td, th{
 	}
 	
 		.input-padron{
-		width: 70%;
+		width: 80%;
+	}
+	
+	.forma-contacto{
+
+		font-size: 0.9em;
+
 	}
 	
 
