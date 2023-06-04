@@ -191,12 +191,14 @@ footer{
 	background-size: cover;
 }
 
-.informacion, .forma-contacto{
+
+
+.informacion, .metodo-contacto{
 	color: #ac8655;
 	text-shadow: #000000;
 }
 
-.metodo-contacto{
+.forma-contacto{
 	color: #FFFFFF;
 	text-shadow: #000000;
 }
