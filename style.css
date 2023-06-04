@@ -84,7 +84,7 @@ li a.active, li a:hover{
 
 .main-productos{
 
-	background: url("../imagenes/pexels-afta-putta-gunawan-683039.jpg") rgba(0, 0, 0, 0.5);
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.87)), url(imagenes/pexels-afta-putta-gunawan-683039.jpg); 
 
 }
 .main-contacto{
@@ -446,7 +446,7 @@ td, th{
 
 
 	.titulo-superior{
-		margin-top: 10px;
+		margin-top: 20px;
 		font-size: 16px;
 	}
 
