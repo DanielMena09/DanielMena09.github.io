@@ -530,6 +530,8 @@ td, th{
 	
 		text-align: left;
 		margin-bottom: 30px;
+		display: table-cell;
+                padding: 30px
 	      }
 	  
 	  .imagen-diferenciales {
